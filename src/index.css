@@ -15,6 +15,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --bg-color: #F9F5FF;
+  --color-primary: #42307D;
+  --color-purple: #6941C6;
+  --color-light: #e7dcf7;
 }
 
 a {
@@ -28,10 +33,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
+  
 }
 
 h1 {
