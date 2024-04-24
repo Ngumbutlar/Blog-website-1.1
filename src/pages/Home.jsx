@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
 import BlogPost from '../components/BlogPost'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -8,6 +9,8 @@ const Home = () => {
         <HeroSection/>
 
         <BlogPost/>
+
+        <Footer/>
         
     </div>
   )
