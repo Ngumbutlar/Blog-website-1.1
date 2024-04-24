@@ -1,0 +1,82 @@
+{
+  "posts":[
+    {
+      "id": 1,
+      "thumbnail": "../assets/images/image1.jpg",
+      "category": "Design",
+      "title": "UX Review Presentation",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    },
+  
+    {
+      "id": 2,
+      "thumbnail": "../assets/images/image2.jpg",
+      "category": "Product",
+      "title": "Migrating to Linear 101",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    },
+  
+    {
+      "id": 3,
+      "thumbnail": "../assets/images/image3.jpg",
+      "category": "Software Engineering",
+      "title": "Building your API Stack",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    },
+    {
+      "id": 4,
+      "thumbnail": "../assets/images/image4.jpg",
+      "category": "Management",
+      "title": "Bill Waish Leadership Lessons",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    },
+
+    {
+      "id": 5,
+      "thumbnail": "../assets/images/image5.jpg",
+      "category": "Product",
+      "title": "PM mental models",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    },
+
+    {
+      "id": 6,
+      "thumbnail": "../assets/images/image6.jpg",
+      "category": "Design",
+      "title": "What is Wireframing",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    },
+    {
+      "id": 7,
+      "thumbnail": "../assets/images/image7.jpg",
+      "category": "Design",
+      "title": "How Collaboration makes us better designers",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    },
+    {
+      "id": 8,
+      "thumbnail": "../assets/images/image8.jpg",
+      "category": "Product",
+      "title": "Our top 10 Javascript frameworks to use",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    },
+    {
+      "id": 9,
+      "thumbnail": "../assets/images/image9.jpg",
+      "category": "Customer Success",
+      "title": "PodCast: Creating better CX Community",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quis recusandae libero quisquam animi quos veniam nihil necessitatibus saepe doloremque, voluptatum, cumque quas facilis accusantium minima. Labore nam dolor asperiores?",
+      "authorID": 3
+    }
+
+  ]
+  
+}
