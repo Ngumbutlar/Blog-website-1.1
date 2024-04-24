@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { IoSearchOutline } from "react-icons/io5";
-import Pattern from "../assets/images/Background.jpg";
-import BlogPost from "./BlogPost";
-import { json } from "react-router-dom";
+import Pattern from "/assets/images/Background.jpg";
+
 
 const HeroSection = () => {
   const [input, setInput] = useState("");
@@ -31,10 +30,10 @@ const HeroSection = () => {
           Our blog
         </p>
         <h1 className="text-[var(--color-primary)] mb-4 text-4xl font-[600]">
-          Resources and Insigts
+          Resources and Insights
         </h1>
         <p className="text-[var(--color-purple)] mb-4">
-          {" "}
+          
           The latest industry news, interview, technologies, and resources.
         </p>
         <div className="bg-white shadow-sm p-3 outline-none rounded-lg  mx-[25%] flex items-center">
@@ -47,9 +46,8 @@ const HeroSection = () => {
             onChange={(e) => handleChange(e.target.value)}
           />
         </div>
-        <div>Search Results</div>
-        <ul className="m-2">
-          {results?.map(({title})=><li>{title}</li>)}
+        <ul className="m-2 relative z-10 resize-none bg-white shadow-sm rounded-lg overflow-y-scroll text-left">
+          {results?.map(({title})=><li className="m-2 p-3 hover:bg-[#efefef] hover:cursor-pointer" >{title}</li>)}
         </ul>
         <div className="w-full">
           <img src={Pattern} alt="" />
