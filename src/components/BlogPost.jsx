@@ -5,7 +5,7 @@ import PostItem from "./PostItem";
 const BlogPost = () => {
   const [posts, setPosts] = useState(DUMMY_POSTS);
   return (
-    <section className="posts grid grid-cols-1 md:grid-cols-3 mt-10 px-10 md:px-15 lg:px-32">
+    <section className="posts grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 px-10 md:px-15 lg:px-32 sm:mt-[-250px] lg:mt-[-370px]">
       {posts.map(
         ({id ,thumbnail, category, title, desc, authorId }, index) => (
           <PostItem
