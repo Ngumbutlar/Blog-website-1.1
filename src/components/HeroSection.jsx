@@ -14,7 +14,6 @@ const HeroSection = () => {
       const res = json.filter((posts) => {
         return posts && posts.category && posts.title.toLowerCase().includes(value);
       })
-      console.log(results);
       setResults(res)
     })
   }
