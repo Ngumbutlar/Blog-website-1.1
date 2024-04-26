@@ -8,7 +8,7 @@ const HeroSection = () => {
   const [results, setResults] = useState([]);
   
   const fetchData = (value) => {
-    fetch("http://localhost:8000/posts")
+    fetch("https://json-server-neon.vercel.app/posts")
     .then((response) => response.json())
     .then((json) => {
       const res = json.filter((posts) => {
@@ -40,7 +40,7 @@ const HeroSection = () => {
           <input
             type="text"
             placeholder="Search"
-            className=" outline-none ml-2"
+            className=" outline-none ml-2 bg-white"
             value={input}
             onChange={(e) => handleChange(e.target.value)}
           />
